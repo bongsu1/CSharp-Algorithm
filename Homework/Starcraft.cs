@@ -97,7 +97,7 @@ namespace Homework
     }
     internal class Starcraft
     {
-        static void Main()
+        static void Main2()
         {
             StarList<int> squad = new StarList<int>();
             squad.ControlClick(1);
