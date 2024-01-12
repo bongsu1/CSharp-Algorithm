@@ -90,11 +90,11 @@ namespace Homework_LinkedList
             }
             else if (_value.CompareTo(0) > 0)
             {
-                AddPlus(_value);
+                AddMinus(_value);
             }
             else
             {
-                AddMinus(_value);
+                AddPlus(_value);
             }
         }
 
