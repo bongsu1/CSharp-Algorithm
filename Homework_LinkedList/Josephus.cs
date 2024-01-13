@@ -10,7 +10,7 @@ namespace Homework_LinkedList
 {
     public class Josephus
     {
-        static void Main()
+        static void Main12()
         {
             LinkedList<int> Jose = new LinkedList<int>();
 
