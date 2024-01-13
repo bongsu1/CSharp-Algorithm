@@ -12,10 +12,16 @@ namespace Homework_LinkedList
     {
         static void Main()
         {
-            LinkedList<int> Jose = new LinkedList<int>(); // 
+            LinkedList<int> Jose = new LinkedList<int>();
 
-            int n = 7;
-            int k = 3;
+            int n;
+            int k;
+
+            Console.Write("참가하는 인원을 입력해주세요 : ");
+            int.TryParse(Console.ReadLine(), out n);
+
+            Console.Write("제거 할 순번 : ");
+            int.TryParse(Console.ReadLine(), out k);
 
             for (int i = 1; i <= n; i++)
             {
@@ -32,7 +38,41 @@ namespace Homework_LinkedList
                 Jose.Remove(node);
             }
 
+            /*// 교수님 풀이
+            LinkedList<int> josephus = new LinkedList<int>();
 
+            int n;
+            int k;
+
+            Console.Write("참가하는 인원을 입력해주세요 : ");
+            int.TryParse(Console.ReadLine(), out n);
+
+            Console.Write("제거 할 순번 : ");
+            int.TryParse(Console.ReadLine(), out k); 
+
+            for (int i = 1; i <= n; i++)
+            {
+                josephus.AddLast(i);
+            }
+
+            while (josephus.Count > 0)
+            {
+                for(int i = 1; i <= k; i++)
+                {
+                    if(i == k)
+                    {
+                        LinkedListNode<int> node = josephus.First;
+                        josephus.Remove(node);
+                        Console.Write($"{node.Value}");
+                    }
+                    else
+                    {
+                        LinkedListNode<int> node = josephus.First;
+                        josephus.Remove(node);
+                        josephus.AddLast(node);
+                    }
+                }
+            }*/
         }
     }
 
