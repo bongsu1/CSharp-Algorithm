@@ -37,6 +37,10 @@ namespace Stack_Queue_Homework
                 }
                 else if (text[i] == ']' || text[i] == '}' || text[i] == ')')
                 {
+                    if (textStack.Count == 0) // 예외 처리 추가
+                    {
+                        return false;
+                    }
                     switch (textStack.Peek())
                     {
                         case '[':
@@ -60,7 +64,7 @@ namespace Stack_Queue_Homework
         static void Main(string[] args)
         {
             //Console.WriteLine("괄호 검사기입니다 (괄호를 제대로 열고 닫으면 true가 출력됩니다)");
-            string text = " [[(){}]]"; //Console.ReadLine();
+            string text = " ]"; //Console.ReadLine();
             Console.WriteLine(isOk(text));
 
             int[] array = { 4, 4, 12, 10, 2, 10 };
