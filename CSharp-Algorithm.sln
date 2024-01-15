@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework", "Homework\Homewo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_LinkedList", "Homework_LinkedList\Homework_LinkedList.csproj", "{00B715ED-D31B-4579-A44C-D53CD5DA38F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack_Queue_Homework", "Stack_Queue_Homework\Stack_Queue_Homework.csproj", "{16F61860-96AA-4055-A5CC-6EA4074D67FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{00B715ED-D31B-4579-A44C-D53CD5DA38F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00B715ED-D31B-4579-A44C-D53CD5DA38F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00B715ED-D31B-4579-A44C-D53CD5DA38F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F61860-96AA-4055-A5CC-6EA4074D67FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F61860-96AA-4055-A5CC-6EA4074D67FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F61860-96AA-4055-A5CC-6EA4074D67FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F61860-96AA-4055-A5CC-6EA4074D67FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
