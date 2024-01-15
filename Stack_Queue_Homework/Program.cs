@@ -26,7 +26,7 @@ namespace Stack_Queue_Homework
     internal class Program
     {
         // 2. 괄호 검사기
-        static bool isOk(string text)
+        static bool IsOk(string text)
         {
             Stack<char> textStack = new Stack<char>();
             for (int i = 0; i < text.Length; i++)
@@ -65,7 +65,7 @@ namespace Stack_Queue_Homework
         {
             //Console.WriteLine("괄호 검사기입니다 (괄호를 제대로 열고 닫으면 true가 출력됩니다)");
             string text = " ]"; //Console.ReadLine();
-            Console.WriteLine(isOk(text));
+            Console.WriteLine(IsOk(text));
 
             int[] array = { 4, 4, 12, 10, 2, 10 };
             for (int i = 0; i < array.Length; i++)
