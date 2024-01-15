@@ -61,6 +61,78 @@ namespace Stack_Queue_Homework
             return textStack.Count == 0;
         }
 
+        /*// 교수님 풀이
+        static bool IsOk(string text)
+        {
+            Stack<char> stack = new Stack<char>();
+
+            foreach (char c in stack)
+            {
+                if (c == '[')
+                {
+                    stack.Push(c);
+                }
+                else if (c == '{')
+                {
+                    stack.Push(c);
+                }
+                else if (c == '(')
+                {
+                    stack.Push(c);
+                }
+                else if (c == ']')
+                {
+                    if (stack.Count == 0)
+                        return false;
+
+                    char bracket = stack.Pop();
+                    if (bracket == '[')
+                    {
+                        // 이건 괜찮은 상황
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                else if (c == '}')
+                {
+                    if (stack.Count == 0)
+                        return false;
+
+                    char bracket = stack.Pop();
+                    if (bracket == '}')
+                    {
+                        // 이건 괜찮은 상황
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                else if (c == ')')
+                {
+                    if (stack.Count == 0)
+                        return false;
+
+                    char bracket = stack.Pop();
+                    if (bracket == ')')
+                    {
+                        // 이건 괜찮은 상황
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+            }
+
+            if (stack.Count > 0)
+                return false;
+
+            return true;
+        }*/
+
         static void Main(string[] args)
         {
             //Console.WriteLine("괄호 검사기입니다 (괄호를 제대로 열고 닫으면 true가 출력됩니다)");
@@ -107,5 +179,43 @@ namespace Stack_Queue_Homework
             }
             return result;
         }
+
+        /*// 교수님 풀이
+        public const int WorkTime = 8;
+        static int[] ProcessJob(int[] jobList)
+        {
+            Queue<int> queue = new Queue<int>(jobList);
+            int remainTime = 8;
+            int day = 1;
+            List<int> days = new List<int>();
+
+            //for (int i = 0; i < jobList.Length; i++)
+            //{
+            //    queue.Enqueue(jobList[i]);
+            //}
+
+            while (queue.Count > 0)
+            {
+                int WorkTime = queue.Dequeue();
+                while (true)
+                {
+                    if (WorkTime <= remainTime)
+                    {
+                        remainTime -= WorkTime;
+                        // 작업 완료
+                        days.Add(day);
+                        break;
+                    }
+                    else
+                    {
+                        WorkTime -= remainTime;
+                        // 다음날로
+                        day++;
+                        remainTime = 8;
+                    }
+                }
+            }
+            return days.ToArray();
+        }*/
     }
 }
