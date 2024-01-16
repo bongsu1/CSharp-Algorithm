@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_LinkedList", "Home
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack_Queue_Homework", "Stack_Queue_Homework\Stack_Queue_Homework.csproj", "{16F61860-96AA-4055-A5CC-6EA4074D67FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree_Homework", "BinarySearchTree_Homework\BinarySearchTree_Homework.csproj", "{F477B4D2-6A47-45EA-9A90-66ED9E9B2543}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{16F61860-96AA-4055-A5CC-6EA4074D67FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16F61860-96AA-4055-A5CC-6EA4074D67FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16F61860-96AA-4055-A5CC-6EA4074D67FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F477B4D2-6A47-45EA-9A90-66ED9E9B2543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F477B4D2-6A47-45EA-9A90-66ED9E9B2543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F477B4D2-6A47-45EA-9A90-66ED9E9B2543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F477B4D2-6A47-45EA-9A90-66ED9E9B2543}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
