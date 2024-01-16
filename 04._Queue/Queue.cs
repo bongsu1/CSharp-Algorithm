@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _04._Queue_
+namespace DataStructure
 {
     internal class Queue<T>
     {
