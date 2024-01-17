@@ -213,5 +213,44 @@
                 cost = _cost;
             }
         }
+
+        /*public class ResourceManager
+        {
+            Dictionary<string, Image> imageDic;
+
+            public ResourceManager()
+            {
+                imageDic = new Dictionary<string, Image>();
+
+                imageDic.Add("오크", new Image("C//경로"));
+                imageDic.Add("슬라임", new Image("C//경로"));
+                imageDic.Add("드래곤", new Image("C//경로"));
+            }
+
+            public Image GetImage(string name)
+            {
+                return imageDic[name];
+            }
+        }
+
+        public class Game
+        {
+            public void Spaw(string _name)
+            {
+                ResourceManager spawn = new ResourceManager();
+
+                spawn.GetImage(_name);
+            }
+        }
+
+        public class Image
+        {
+            string path;
+
+            public Image(string _path)
+            {
+                path = _path;
+            }
+        }*/
     }
 }
