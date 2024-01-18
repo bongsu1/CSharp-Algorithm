@@ -11,15 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithm", "Algorithm", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01._List", "01._List\01._List.csproj", "{7DD0B60D-7AAE-4D55-9C02-69A72A04E6BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework", "Homework\Homework.csproj", "{B29FC6D3-37BB-40BA-B823-E9C015E52FFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework", "Homework\Homework.csproj", "{B29FC6D3-37BB-40BA-B823-E9C015E52FFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_LinkedList", "Homework_LinkedList\Homework_LinkedList.csproj", "{00B715ED-D31B-4579-A44C-D53CD5DA38F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework_LinkedList", "Homework_LinkedList\Homework_LinkedList.csproj", "{00B715ED-D31B-4579-A44C-D53CD5DA38F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack_Queue_Homework", "Stack_Queue_Homework\Stack_Queue_Homework.csproj", "{16F61860-96AA-4055-A5CC-6EA4074D67FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack_Queue_Homework", "Stack_Queue_Homework\Stack_Queue_Homework.csproj", "{16F61860-96AA-4055-A5CC-6EA4074D67FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree_Homework", "BinarySearchTree_Homework\BinarySearchTree_Homework.csproj", "{F477B4D2-6A47-45EA-9A90-66ED9E9B2543}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchTree_Homework", "BinarySearchTree_Homework\BinarySearchTree_Homework.csproj", "{F477B4D2-6A47-45EA-9A90-66ED9E9B2543}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heap_Homework", "Heap_Homework\Heap_Homework.csproj", "{FD0F18D8-C711-4B3E-A092-5853EAA25163}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heap_Homework", "Heap_Homework\Heap_Homework.csproj", "{FD0F18D8-C711-4B3E-A092-5853EAA25163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hashtable_Homework", "Hashtable_Homework\Hashtable_Homework.csproj", "{91EC6689-B5E4-446B-90F0-C616D8A98678}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{FD0F18D8-C711-4B3E-A092-5853EAA25163}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD0F18D8-C711-4B3E-A092-5853EAA25163}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD0F18D8-C711-4B3E-A092-5853EAA25163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91EC6689-B5E4-446B-90F0-C616D8A98678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EC6689-B5E4-446B-90F0-C616D8A98678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91EC6689-B5E4-446B-90F0-C616D8A98678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91EC6689-B5E4-446B-90F0-C616D8A98678}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
