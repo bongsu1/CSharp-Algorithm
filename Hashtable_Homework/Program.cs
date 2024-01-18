@@ -7,10 +7,8 @@
 
         public void Run(string cheatKey)
         {
-            if (cheatDic.ContainsKey(cheatKey))
-            {
-                cheatDic[cheatKey].Invoke();
-            }
+            cheatDic.TryGetValue(cheatKey, out Action OnCheat);
+            OnCheat?.Invoke();
         }
 
         private void ShowMeTheMoney()
