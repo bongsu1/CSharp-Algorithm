@@ -25,7 +25,7 @@ namespace Hashtable_Homework
     }
     class Pro
     {
-        static void Main()
+        static void Main2()
         {
             Password password = new Password();
             string[] nm = Console.ReadLine().Split(' ');
