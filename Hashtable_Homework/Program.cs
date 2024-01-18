@@ -31,7 +31,7 @@
 
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.Clear();
             Console.WriteLine("치트를 입력해주세요");
