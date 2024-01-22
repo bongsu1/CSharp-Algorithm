@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hashtable_Homework", "Hasht
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design_Homework", "Design_Homework\Design_Homework.csproj", "{0FDA83B6-D00C-46B0-89A0-0108DB48272A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort_Homework", "Sort_Homework\Sort_Homework.csproj", "{06004397-DB1B-4783-99A1-E1490EDDEDDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{0FDA83B6-D00C-46B0-89A0-0108DB48272A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FDA83B6-D00C-46B0-89A0-0108DB48272A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FDA83B6-D00C-46B0-89A0-0108DB48272A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06004397-DB1B-4783-99A1-E1490EDDEDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06004397-DB1B-4783-99A1-E1490EDDEDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06004397-DB1B-4783-99A1-E1490EDDEDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06004397-DB1B-4783-99A1-E1490EDDEDDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
