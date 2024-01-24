@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort_Homework", "Sort_Homew
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search_Homework", "Search_Homework\Search_Homework.csproj", "{0080CB3C-C6B3-4810-8447-0461A45BC37C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra_Homework", "Dijkstra_Homework\Dijkstra_Homework.csproj", "{B76626C0-2EE1-439F-A45A-1ACE19C24360}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{0080CB3C-C6B3-4810-8447-0461A45BC37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0080CB3C-C6B3-4810-8447-0461A45BC37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0080CB3C-C6B3-4810-8447-0461A45BC37C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76626C0-2EE1-439F-A45A-1ACE19C24360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76626C0-2EE1-439F-A45A-1ACE19C24360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76626C0-2EE1-439F-A45A-1ACE19C24360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76626C0-2EE1-439F-A45A-1ACE19C24360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
